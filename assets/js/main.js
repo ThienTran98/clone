@@ -71,8 +71,8 @@ const dataImages = [
   },
   {
     id: 11,
-    image: "goicuon.jfif",
-    name: "Gỏi Cuốn",
+    image: "nemchua.jfif",
+    name: "Nem chua",
     made_in: "Việt Nam",
     decs: "Nem chua là một món ăn sử dụng thịt lợn, lợi dụng men của lá chuối (hoặc lá ổi, lá vông, lá sung) và thính gạo để ủ chín, có vị chua ngậy. Nem Miền Bắc có thể chế biến ăn sống cùng các loại lá đặc biệt; còn Nem Miền Trung (đặc biệt Thanh Hoá và Huế) được đóng gói và lên men trong một số loại lá, trong đó có lá chuối, lá ổi.",
   },
@@ -111,6 +111,48 @@ const dataImages = [
     made_in: "Miền Bắc Việt Nam",
     decs: "Cơm lam là món ăn đặc sản của các dân tộc Tây Bắc, đặc biệt là người Thái, H'mông. Món ăn được chế biến từ gạo nếp, nấu trong ống tre hoặc ống nứa, sau khi đã rửa sạch và ngâm nước. Cơm lam có hương vị thơm ngon, dẻo, ngọt tự nhiên nhờ cách nấu đặc biệt trong ống tre, giữ được mùi vị đặc trưng của gạo nếp và tre. Món ăn thường được dùng trong các dịp lễ hội, tụ họp gia đình hoặc làm quà tặng.",
   },
+  {
+    id: 17,
+    image: "banhtrangtron.jfif",
+    name: "Bánh Tráng Trộn",
+    made_in: "Việt Nam",
+    decs: "Bánh tráng trộn là món ăn vặt phổ biến ở miền Nam Việt Nam, đặc biệt tại TP.HCM. Món ăn này có xuất xứ từ các quán vỉa hè và dần trở nên nổi tiếng khắp cả nước. Bánh tráng được cắt sợi nhỏ, trộn với các nguyên liệu như xoài xanh, khô bò, lạc rang, rau răm, và gia vị như mắm, ớt, và nước cốt chanh. Bánh tráng trộn có vị chua, mặn, cay hòa quyện, tạo nên hương vị đặc biệt và hấp dẫn.",
+  },
+  {
+    id: 18,
+    image: "banhgoi.jfif",
+    name: "Bánh Gối",
+    made_in: "Miền Bắc Việt Nam",
+    decs: "Bánh gối là món ăn phổ biến ở miền Bắc Việt Nam, đặc biệt là Hà Nội. Món ăn này có xuất xứ từ ẩm thực Trung Hoa, nhưng đã được người Việt biến tấu và phát triển. Bánh gối được làm từ bột mì, nhân gồm thịt lợn, tôm, mộc nhĩ, và các gia vị, sau đó được chiên giòn. Bánh có hình bán nguyệt, lớp vỏ ngoài giòn tan, nhân bên trong thơm ngon, đậm đà, thường được ăn kèm với nước mắm pha chua ngọt.",
+  },
+  {
+    id: 19,
+    image: "thitkho.jfif",
+    name: "Thịt Kho",
+    made_in: "Việt Nam",
+    decs: "Thịt kho là món ăn truyền thống của người Việt, đặc biệt phổ biến trong các bữa cơm gia đình và dịp lễ Tết. Thịt thường được kho với nước dừa, nước mắm, đường, và gia vị như tiêu, tỏi, ớt để tạo nên một món ăn đậm đà, thơm ngon. Món ăn này có vị ngọt thanh từ đường, mặn mà từ nước mắm, hòa quyện với hương thơm của thịt heo mềm mại. Thịt kho ăn kèm với cơm nóng, thường có sự kết hợp với trứng cút hoặc hột vịt.",
+  },
+  {
+    id: 20,
+    image: "xoixeo.jfif",
+    name: "Xôi Xéo",
+    made_in: "Việt Nam",
+    decs: "Xôi xéo là món ăn đặc trưng của Hà Nội, được làm từ gạo nếp trắng, hấp chín mềm và dẻo. Món xôi này có lớp đậu xanh nghiền nhuyễn, thường được rắc lên trên mặt xôi tạo vị bùi béo. Xôi xéo thường được ăn kèm với mỡ hành, hành phi giòn và lạp xưởng hoặc thịt gà xé. Món ăn này có vị ngọt nhẹ của đậu xanh, mặn mà của mỡ hành và thơm nức mùi gạo nếp, rất hấp dẫn.",
+  },
+  {
+    id: 21,
+    image: "bunthitnuong.jfif",
+    name: "Bún Thịt Nướng",
+    made_in: "Việt Nam",
+    decs: "Bún thịt nướng là món ăn phổ biến trong ẩm thực miền Nam, gồm bún tươi, thịt heo nướng (thường là thịt ba chỉ hoặc sườn) được thái lát mỏng và nướng trên than hồng. Món ăn được kết hợp với rau sống như xà lách, rau thơm, giá đỗ và đậu phộng rang. Nước mắm pha chua ngọt, thêm chút tỏi ớt tạo nên hương vị đậm đà. Bún thịt nướng có sự hòa quyện giữa vị ngọt của thịt, tươi mát của rau và mặn ngọt của nước mắm.",
+  },
+  {
+    id: 22,
+    image: "banhkhot.jfif",
+    name: "Bánh Khọt",
+    made_in: "Việt Nam",
+    decs: "Bánh khọt là món ăn đặc sản miền Nam Việt Nam, có hình dáng giống chiếc bánh nhỏ, tròn, được làm từ bột gạo pha với nước cốt dừa, tạo nên lớp vỏ giòn mềm. Nhân bánh thường là tôm, mực hoặc thịt, kèm theo hành lá và gia vị. Bánh khọt được chiên trong chảo gang hoặc chảo nhỏ, tạo thành những chiếc bánh vàng ươm, ăn kèm với rau sống và nước mắm chua ngọt. Món ăn này có vị béo ngậy, thơm mùi dừa, rất hấp dẫn.",
+  },
 ];
 
 const renderCurrentService = () => {
@@ -127,9 +169,8 @@ const renderCurrentService = () => {
                 </p>
               </div>
             </div>
-
             <h2 class="service__item--text">${item.name}</h2>
-            <div class="service__item--btn">
+              <div class="service__item--btn">
               <button>Đặt ngay</button>
             </div>
           </div>`;
