@@ -236,17 +236,26 @@
 
 .topic {
   padding: 20px 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
+
+.topic__img {
+}
+
+.topic__img img {
+  width: 100%;
+  height: 400px;
+  object-fit: 100%;
+  border-radius: 6px;
+}
+
 .topic__text {
   padding: 0px 24px 36px;
-  padding-top: 30%;
-  background-color: #2c0f15;
-  border-radius: 24px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url("/assets/img/download.jfif") top center / cover no-repeat;
 }
 
 .topic__text--title {
@@ -313,7 +322,13 @@ slick */
 .slick-prev {
   left: 0;
 }
+.slick-prev:before,
+.slick-prev::after,
+.slick-next:before {
+  color: #ef4444 !important;
+}
 
+/* decorate */
 .decorate {
   padding: 8px 40px;
 }

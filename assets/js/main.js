@@ -170,9 +170,6 @@ const renderCurrentService = () => {
               </div>
             </div>
             <h2 class="service__item--text">${item.name}</h2>
-              <div class="service__item--btn">
-              <button>Đặt ngay</button>
-            </div>
           </div>`;
   });
 
